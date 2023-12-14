@@ -18,7 +18,7 @@ const SetupPage = async () => {
 
 
   if (server) { 
-    return redirect(`/server/${server.id}`)
+    return redirect(`/servers/${server.id}`)
   }
 
   return <InitialModel />
